@@ -1,0 +1,15 @@
+{
+  "name": "coinbase_auto",
+  "version": "1.0.0",
+  "description": "script to automatically place a purchase order for btc via a coinbase Pro (nee GDAX)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "HCAWN",
+  "license": "MIT",
+  "dependencies": {
+    "coinbase-pro-node": "^2.14.0"
+  }
+}
